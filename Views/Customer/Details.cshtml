@@ -1,0 +1,11 @@
+﻿@model MovieApp.Models.Customer
+
+@{
+    ViewData["Title"] = "Customer Details";
+}
+
+<h2>Customer Details</h2>
+
+<p><strong>Name:</strong> @Model.Name</p>
+
+<a asp-controller="Customer" asp-action="Index">Back to Customers</a>
